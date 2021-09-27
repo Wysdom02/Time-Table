@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  color-scheme: dark;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+  background-color: #000;
+  color: aquamarine;
+}
+
+.container {
+  overflow: auto;
+  padding: 20px;
+}
+th  {
+padding: 10px;
+text-align: center;
+}
+
+td{
+  color: palevioletred;
+  padding: 20px 5rem;
+}
+
+tr{
+  padding: 50px;
+}
+
+.prefForm{
+  border: 1px solid steelblue;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 0.8%;
+  margin: 0.8%;
+}
+
+
+.dropDown{
+  padding: 0.8%;
+  text-align: center;
+  border: 1px solid steelblue;
+  border-radius: 5px;
+  margin-top:20px;
+  background-color: transparent;
+  color:palevioletred;
+  width: 98%;
+  height: 4rem;
+  margin: 0.8%;
+}
+.dropDown:hover{
+  box-shadow: 5px 10px 15px rgba(254, 0, 62 ,0.2);
+  background-color: rgba(70, 130, 180 ,0.1) ;
+  transition: 0.3s;
+}
+
+.box{
+  text-align: center;
+  margin-bottom: 40px;
+  border: 1px solid steelblue;
+  border-radius: 5px;
+  padding: 0.8%;
+  margin: 0.8%;
+
+}
+
+.box:hover {
+  box-shadow: 5px 10px 15px rgba(30, 40, 100,0.5);
+  background-color: rgba(70, 130, 180 ,0.1) ;
+  transition: 0.3s;
+}
+
+#myDropdown{
+  display: none;
+}
+.links{
+
+  list-style-type: none;
+  float: right;
+  display: inline;
+  border: 1px solid steelblue;
+  border-radius: 5px;
+  color: aliceblue;
+  padding :0 0.3rem ;
+  margin: 0 0.2rem;
+  color: palevioletred;
+}
+li{display:inline;}
+
+.hidden{
+  height: 0%;
+  transition: 0.5s;
+  display: inline-block;
+  z-index: 999;
+  position:absolute;
+  justify-content: center;
+}
+.show{
+  height: 25rem;
+  transition: 0.5s;
+  z-index: 999;
+  position:absolute;
+  justify-content: center;
+}
+
+.inputbox{
+  padding: 0.3rem;
+  margin:0.3rem;
+}
+
+label{
+  padding: 0.8%;
+  margin: 0.8%;
+}
+
+.heading{
+  padding: 0 0.8%;
+  margin: 0 0.8%;
+}
+.heading2{
+  padding: 0.4% 0.8%;
+  margin: 0.4% 0.8%;
+  margin-bottom: 40px;
+  border: 1px solid steelblue;
+}
+
+.arrow {
+  border: solid palevioletred;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
