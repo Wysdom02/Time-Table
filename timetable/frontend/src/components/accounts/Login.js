@@ -54,7 +54,7 @@ export class Login extends Component {
             </div>
 
             <div >
-              <button type="submit" className="heading">
+              <button type="submit"  className="authbut">
                 Login
               </button>
             </div>

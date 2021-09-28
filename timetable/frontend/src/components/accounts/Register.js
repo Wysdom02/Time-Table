@@ -41,7 +41,7 @@ export class Register extends Component {
     return (
       <div >
         <div >
-          <h2 >Register</h2>
+          <h2 className="inputbox" >Register</h2>
           <form onSubmit={this.onSubmit}>
             <div className="form-group">
               <label>Username:</label>
@@ -84,7 +84,7 @@ export class Register extends Component {
               />
             </div>
             <div>
-              <button type="submit" className="inputbox">
+              <button type="submit" className="inputbox" className="authbut">
                 Register
               </button>
             </div>

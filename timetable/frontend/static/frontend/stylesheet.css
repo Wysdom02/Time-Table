@@ -126,7 +126,6 @@ label{
 .heading2{
   padding: 0.4% 0.8%;
   margin: 0.4% 0.8%;
-  margin-bottom: 40px;
   border: 1px solid steelblue;
 }
 
@@ -140,4 +139,41 @@ label{
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+
+.authbut{
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0.4% 0.8%;
+  margin: 0.4% 0.8%;
+  border: 1px solid steelblue;
+}
+
+.authbut2{
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+.authbut:hover{
+  box-shadow: 5px 10px 15px rgba(30, 40, 100,0.5);
+  background-color: rgba(70, 130, 180 ,0.1) ;
+  transition: 0.3s;
+}
+
+.authbut:active{
+  box-shadow: 5px 10px 15px rgba(254, 0, 62 ,0.2);
+  color:rgb(254, 0, 62 );
+}
+
+.authbut2:hover{
+  box-shadow: 5px 10px 15px rgba(30, 40, 100,0.5);
+  background-color: rgba(70, 130, 180 ,0.1) ;
+  transition: 0.3s;
+}
+
+.authbut2:active{
+  box-shadow: 5px 10px 15px rgba(254, 0, 62 ,0.2);
+  color:rgb(254, 0, 62 );
 }
