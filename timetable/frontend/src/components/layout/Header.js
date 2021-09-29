@@ -26,7 +26,7 @@ const authLinks = (
     <ul type="null">
     <li >Time Table Registration</li>
 
-    <li className="links" ><button className="authbut2" onClick={this.props.logout}>Logout</button>
+    <li className="links" ><button className="authbut2" onClick={this.props.logout}><Link to="/login"></Link>Logout</button>
      </li>
  </ul>
 );
